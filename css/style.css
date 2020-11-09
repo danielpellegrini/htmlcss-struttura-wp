@@ -4,25 +4,55 @@
   padding: 0;
 }
 
-.container {
-  width: 1200px;
+main {
+  width: 1000px;
   height: 600px;
-  background-color: #999;
   margin: 0 auto;
-  padding: 25px 25px 0;
+  padding: 15px 25px 0;
+
 }
 
 header {
-  width: 1150px;
-  height: 150px;
+  width: 850px;
+  height: 120px;
   background-color: yellow;
   float: left;
   margin-bottom: 10px;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .left {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   background-color: violet;
   float: left;
+}
+
+.center {
+  width: 320px;
+  height: 320px;
+  background-color: purple;
+  float: left;
+  margin: 0 15px 10px;
+}
+
+.right {
+  width: 250px;
+  height: 150px;
+  background-color: violet;
+  float: left;
+  margin-bottom: 10px;
+}
+
+footer {
+  width: 850px;
+  height: 60px;
+  background-color: #8CACBC;
+  float: left;
+  margin-bottom: 10px;
 }
